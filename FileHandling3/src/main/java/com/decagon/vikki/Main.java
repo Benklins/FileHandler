@@ -14,7 +14,7 @@ public class Main {
 
         if(args.length  == 0){
 
-            filePath = "resources/config.txt";
+            filePath = "FileHandling3/resources/config.txt";
 
         }
 
@@ -22,9 +22,9 @@ public class Main {
 
             if(args[0].equalsIgnoreCase("production")){}
 
-            else if(args[0].equalsIgnoreCase("staging")){ filePath = "resources/config.txt.staging";}
+            else if(args[0].equalsIgnoreCase("staging")){ filePath = "FileHandling3/resources/config.txt.staging";}
 
-            else if(args[0].equalsIgnoreCase("development")){ filePath = "resources/config.txt.dev";}
+            else if(args[0].equalsIgnoreCase("development")){ filePath = "FileHandling3/resources/config.txt.dev";}
         }
 
 
